@@ -17,7 +17,7 @@ export const blueFood = changeState("soil")(5);
 // blueFood(plant)
 
 export const storeState = () => {
-  let currentState = {};
+  let currentState = {}};
   return (stateChangeFunction) => {
     const newState = stateChangeFunction(currentState);
     currentState = {...newState};
