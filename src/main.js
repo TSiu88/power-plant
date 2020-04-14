@@ -13,9 +13,11 @@ $(document).ready(function(){
     const plant1 = {soil: 0, water: 0, light: 0};
     let plant2 = storeState(plant1);
     let newPlant = plant2(current);
+
     $("#morePlants").append(`<button class="btn-success plant${num}" id="feed${num}">Feed soil</button>`);
     $("#morePlants").append(`<button class="btn-success plant${num}" id="giveLight${num}">Give light</button>`);
     $("#morePlants").append(`<button class="btn-success plant${num}" id="hydrate${num}">Water</button>`);
+    
     $("#morePlants").append(`<h1>New Plant${num}</h1>`);
     $("#morePlants").append(`<h3>Soil: <div id="soil-value${num}">${newPlant.soil}</div></h3>`);
     $("#morePlants").append(`<h3>Light: <div id="light-value${num}">${newPlant.soil}</div></h3>`);

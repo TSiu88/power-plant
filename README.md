@@ -1,6 +1,6 @@
 # _[Power Plant](https://github.com/TSiu88/power-plant)_
 
-#### _Brief desc of Project, 04.14.2020_
+#### _Plant Growing App, 04.14.2020_
 
 #### By _**Tiffany Siu and Jack Dunning**_
 
