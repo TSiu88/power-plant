@@ -1,5 +1,3 @@
-// export class Plant{
-
 // Plant Function Factory
 export const changeState = (prop) => {
   return (value) => {
@@ -10,14 +8,12 @@ export const changeState = (prop) => {
   };
 };
 
-// feed(5)(plant)
-
 export const blueFood = changeState("soil")(5);
+export const hydrate = changeState("water")(2);
+export const giveLight = changeState("light")(3);
 
-// blueFood(plant)
-
-export const storeState = () => {
-  let currentState = {}};
+export const storeState = (initialState) => {
+  let currentState = (initialState || {});
   return (stateChangeFunction) => {
     const newState = stateChangeFunction(currentState);
     currentState = {...newState};
@@ -26,16 +22,3 @@ export const storeState = () => {
 };
 
 export const stateChanger = storeState();
-
-
-// $(document).ready(function() {
-
-//   // This function has side effects because we are using jQuery. Manipulating the DOM will always be a side effect.
-//   $('#feed').click(function() {
-//     console.log("#feed clicked.");
-//     const newState = stateChanger(blueFood);
-//     $('#soil-value').text(newState.soil);
-//   });
-// });
-
-// }
