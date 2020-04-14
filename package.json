@@ -2,7 +2,7 @@
   "name": "power-plant",
   "version": "1.0.0",
   "description": "",
-  "main": "plant.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build && webpack-dev-server --open --mode development",

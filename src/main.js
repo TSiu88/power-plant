@@ -24,6 +24,7 @@ $(document).ready(function(){
     $("#morePlants").append(`<h3>Water: <div id="water-value${num}">${newPlant.soil}</div></h3>`);
   });
 
+  // TO FIX: ADD FUNCTIONALITY TO INCLUDE DYNAMICALLY ADDED PLANTS
   $('#feed').click(function() {
     console.log("#feed clicked.");
     const newState = lily(blueFood);

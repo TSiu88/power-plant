@@ -12,6 +12,7 @@
 ---
 ## Table of Contents
 1. [Description](#description)
+    - [Assignment Details](#assignment-details)
 2. [Setup/Installation Requirements](#setup/installation-requirements)
     - [Requirements to Run](#requirements-to-run)
     - [Instructions](#instructions)
@@ -26,8 +27,17 @@
 ---
 ## Description
 
-_README under construction_
-<!-- _Detailed desc w/ purpose/usage, what does, motivation to create, why exists, other info for users/developers to have_ -->
+Exercise in Epicodus Intro to Programming and C#/React course to practice creating a functional application using functional programming techniques.
+
+### Assignment Details
+Follow along with last night's homework to build an application for growing plants. Make sure to include tests, to separate your logic, and to use Webpack. Once you have completed the example shown in the coursework, try adding the following functionality.
+
+  - Add functionality to create multiple plants. Remember that we can use closures to store state about different objects.
+
+  - Add functionality so different plants have different abilities. Use composition to add these abilities.
+
+  - Build out a fully functioning game where users can feed their plants. This could include a UI, special powerups, and any creative functionality you might want to add!
+
 
 ## Setup/Installation Requirements
 
@@ -110,7 +120,8 @@ _Here is a preview of what the output looks like:_
 
 ## Known Bugs
 
-_There are currently no known bugs in this program_
+_Buttons from dynamically created plants not functional._
+<!-- _There are currently no known bugs in this program_ -->
 
 ## Support and contact details
 
