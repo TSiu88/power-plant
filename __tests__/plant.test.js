@@ -1,14 +1,14 @@
-import { Thing } from './plant.js';
+import { Plant } from './plant.js';
 
-describe('Thing', () => {
-  let thing;
+describe('Plant', () => {
+  // let thing;
 
   beforeEach(() => {
-    thing = new Thing();
+    // thing = new Thing();
   });
 
   test('should check if Thing created correctly', () => {
-    expect(thing.oneThing).toEqual(0);
+    // expect(thing.oneThing).toEqual(0);
   });
 
 });
