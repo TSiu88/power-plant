@@ -1,4 +1,4 @@
-import { Thing } from './thing.js';
+import { Thing } from './plant.js';
 
 describe('Thing', () => {
   let thing;

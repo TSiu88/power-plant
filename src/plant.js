@@ -1,4 +1,4 @@
-export class Thing{
+export class Plant{
   constructor(){
     this.oneThing = 0;
   }
